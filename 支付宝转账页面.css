@@ -1,0 +1,248 @@
+		*{margin: 0;padding: 0;}
+		li{list-style: none;}
+		a{text-decoration: none;}
+		.clear{
+			clear: both;
+		}
+		.top{
+			width: 100%;
+			height: 32px;
+			background-color: #333;
+			line-height: 32px;
+			position: relative;
+		}
+		.conter{
+			width: 1000px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.topone{
+			float: right;
+		}
+		.topone li{
+			float: left;
+			margin: 0 8px;
+			height: 32px;
+		}
+		.topone li>a{
+			color: #ccc;
+			font-size: 12px;
+			padding-left: 15px;
+			border-left:1px solid #666;
+		}
+		.topone li>a:hover{
+			color: #e66e1e;
+		}
+		.topone .noMar{
+			margin-right: 0;
+			position: relative;
+		}
+		.topone .noliner a{
+			border-left: 0;
+		}
+		.noliner{
+			position: relative;
+		}
+		.topone li em{
+			background-image: url(img/apps-icons.png);
+			background-repeat: no-repeat;
+			background-position: 0px 0px;
+			width: 15px;
+			height: 10px;
+			display: inline-block;
+		}
+		.useName{
+			position: absolute;
+			top: 32px;
+			left: -97px;
+			width: 220px;
+			border: 1px solid #f2f2f2;
+			border-top: none;
+			color: #666;
+			z-index: 1;
+			opacity: 0;
+			background-color: #e5e5e5;
+			transition:all 0.5s;
+		}
+		.useName a{
+			color: #08c;
+			font-size: 12px;
+		}
+		.serve{
+			position: absolute;
+			top: 32px;
+			left: -30px;
+			width: 120px;
+			border: 1px solid #aaa;
+			border-top: none;
+			z-index: 1;
+			background-color: #e5e5e5;
+			opacity: 0;
+			transition:all 0.5s;
+		}
+		.serve p{
+			border-bottom: 1px solid #666;
+		}
+		.serve a{
+			font-size: 14px;
+			color: #555;
+			padding: 8px 15px 8px 8px;
+		}
+		.serve a:hover{
+			color: #e66e1e;
+		}
+		.account-head{
+			position: relative;
+			height: 40px;
+			padding: 10px;
+		}
+		.accountone{
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			width: 200px;
+			height: 40px;
+		}
+		.accountName{
+			float: right;
+		}
+		.accountName p{
+			font-size: 14px;
+			position: relative;
+			top: -5px;
+			left: -10px;
+		}
+		.accountName a{
+			position: relative;
+			top: -15px;
+			left: -10px;
+		}
+		.accountName span{
+			position: relative;
+			top: -15px;
+			left: -10px;
+		}
+		.useName a:hover{
+			color: #e66e1e;
+			text-decoration: underline;
+		}
+		.accountone img{
+			width: 40px;
+			height: 40px;
+			border: 1px solid #ddd;
+		}
+		.account-body{
+			padding: 10px;
+		}
+		.account-body p{
+			font-size: 14px;
+		}
+		.tu1{
+			position: absolute;
+			top: 240px;
+			right: -30px;
+		}
+		.tu2{
+			position: absolute;
+			top: 260px;
+			right: 10px;
+		}
+		#toptwo{
+			height: 60px;
+			line-height: 60px;
+			margin: auto auto;
+			background-color: #eee;
+			margin-bottom: 20px;
+		}
+		#toptwo .logo{
+			display:inline-block;
+			height: 60px;
+		}
+		#toptwo .logo img{
+			padding-top: 10px;
+		}
+		#toptwo ul{
+			float: right;
+		}
+		#toptwo ul li{
+			float: left;
+			margin-left: 20px;
+		}
+		#toptwo li a{
+			padding: 15px;
+			color: #123;
+			font-weight: bold;
+			font-size: 16px;
+		}
+		#toptwo .sex span{
+			display: inline-block;
+			width: 8px;
+			height: 8px;
+			border-radius: 40%;
+			background-color: #e66e1e;
+			margin-right: 5px;
+			color: #e66e1e
+		}
+		#toptwo .sex a{
+			color: #e66e1e;
+		}
+		.nav{
+			font-size: 14px;
+		}
+		.nav a{
+			color: #656565;
+			font-weight: 600;
+		}
+		.left{
+			float: left;
+			background-color: #f1f1f1;
+			border: 1px solid #ccc;
+			width: 150px;
+		}
+		.left a{
+			display: block;
+			padding: 5px 0 5px 16px;
+		}
+		.left a:hover{
+			background-color: #ddd;
+		}
+		.ui-box1,.ui_box2{
+			border-bottom: 1px solid #ccc;
+		}
+		.ui_box2 li{
+			border-bottom: 1px solid #ccc;
+		}
+		.ui_box2 li{
+			display: none;
+		}
+		.ui_box2 .open{
+			display: block;
+		}
+		.right{
+			float: right;
+			width: 800px;
+			height: 500px;
+			border: 1px solid #ccc;
+		}
+		.ui-tab{
+			height: 55px;
+			line-height: 55px;
+			background-color: #F2F6FA;
+			border-top: 2px solid #CFDBE8;
+			border-bottom: 1px solid #e6eef6;
+		}
+		.ui-tab a{
+			margin-left: 15px;
+			padding: 14px;
+		}
+		.ui-tab a:hover{
+			background-color: #fff;
+		}
+		.ui-tab img{
+			position: relative;
+			top: 3px;
+			margin-right: 5px;
+		}
+		.ui-tab .bot{
+			background-color: #fff;
+		}
